@@ -95,4 +95,6 @@ public class UserRegistrationService {
         }
         return result.length();
     }
+    asdadsd; // esto va a romper la compilación
+
 }
