@@ -22,3 +22,10 @@ jobs:
 
       - name: Compilar y ejecutar análisis estático
         run: mvn -B clean verify
+
+      - name: Compilar y ejecutar análisis estático
+        run: mvn -B clean verify
+
+      - name: Forzar error intencional
+        run: exit 1
+
